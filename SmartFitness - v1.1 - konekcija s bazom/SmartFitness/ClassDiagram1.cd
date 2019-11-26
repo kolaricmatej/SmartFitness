@@ -1,0 +1,540 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SmartFitness.Forms.AzurirajNatjecanje">
+    <Position X="31.25" Y="8" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAgADAASAAAhAAAACAIAACAAAAAAAAQQBAABAAQAA=</HashCode>
+      <FileName>Forms\AzurirajNatjecanje.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Natjecanje" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SmartFitness.Forms.AzurirajOcijenuUcenika">
+    <Position X="25" Y="0.5" Width="2" />
+    <AssociationLine Name="Sport" Type="SmartFitness.sport" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="25" Y="5.454" />
+        <Point X="22.125" Y="5.454" />
+        <Point X="22.125" Y="9.25" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>QACAgABAACAAABAAAgCAIggCAAAAAAEAAQCIAAAAAAA=</HashCode>
+      <FileName>Forms\AzurirajOcijenuUcenika.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Ucenik" />
+      <Property Name="Sport" />
+      <Property Name="SportUcenik" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SmartFitness.Forms.AzurirajRezultatVjezbe">
+    <Position X="2" Y="8.5" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AgKBiACAECAEABAAAECAIAAiMAEAIIAACQBgBAICEIA=</HashCode>
+      <FileName>Forms\AzurirajRezultatVjezbe.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Ucenik" />
+      <Property Name="vjezba_ucenik" />
+      <Property Name="vjezba" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SmartFitness.Forms.AzurirajSport">
+    <Position X="19.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAACAAASAABACAIABCAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Forms\AzurirajSport.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Selektiranisport" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SmartFitness.Forms.AzurirajUcenikaNaNatjecanju">
+    <Position X="28.25" Y="0.5" Width="2.25" />
+    <AssociationLine Name="Ucenik" Type="SmartFitness.ucenik" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="29.375" Y="4.367" />
+        <Point X="29.375" Y="13.257" />
+        <Point X="27.24" Y="13.257" Type="JumpStart" />
+        <Point X="27.073" Y="13.257" Type="JumpEnd" />
+        <Point X="25.833" Y="13.257" Type="JumpStart" />
+        <Point X="25.667" Y="13.257" Type="JumpEnd" />
+        <Point X="22.208" Y="13.257" Type="JumpStart" />
+        <Point X="22.042" Y="13.257" Type="JumpEnd" />
+        <Point X="16.927" Y="13.257" Type="JumpStart" />
+        <Point X="16.761" Y="13.257" Type="JumpEnd" />
+        <Point X="15.958" Y="13.257" Type="JumpStart" />
+        <Point X="15.792" Y="13.257" Type="JumpEnd" />
+        <Point X="15.125" Y="13.257" />
+        <Point X="15.125" Y="12.882" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AgCBAAAAACAAABAAAECEGAgCAAAAAAAIAAAAAAACAAA=</HashCode>
+      <FileName>Forms\AzurirajUcenikaNaNatjecanju.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Ucenik" />
+      <Property Name="natjecanje" />
+      <Property Name="natjecanje_ucenik" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SmartFitness.Forms.AzurirajVjezbu">
+    <Position X="17.5" Y="22" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAhAACAAARAEAACAIAACAIABAAAAAQAAAAAAQAA=</HashCode>
+      <FileName>Forms\AzurirajVjezbu.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Vjezba" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SmartFitness.Forms.AzuriranjeUcenika">
+    <Position X="1.75" Y="2.5" Width="2" />
+    <AssociationLine Name="Selektiraniucenik" Type="SmartFitness.ucenik" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="3.75" Y="4.25" />
+        <Point X="12.688" Y="4.25" />
+        <Point X="12.688" Y="8.25" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAACAAAAQAAACAIABCAAAQABAAAQAAAAAAAAE=</HashCode>
+      <FileName>Forms\AzuriranjeUcenika.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Selektiraniucenik" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SmartFitness.Forms.DodajNatjecanje">
+    <Position X="48" Y="10.25" Width="3" />
+    <AssociationLine Name="AzurirajNatjecanje" Type="SmartFitness.Forms.AzurirajNatjecanje" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="49.562" Y="18.473" />
+        <Point X="49.562" Y="19.2" />
+        <Point X="46.083" Y="19.2" Type="JumpStart" />
+        <Point X="45.917" Y="19.2" Type="JumpEnd" />
+        <Point X="43.021" Y="19.2" Type="JumpStart" />
+        <Point X="42.854" Y="19.2" Type="JumpEnd" />
+        <Point X="32.25" Y="19.2" />
+        <Point X="32.25" Y="12.954" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>BEAgwADgACAACDAAAECAIAICBCKIAAMBQCAiABgAQAA=</HashCode>
+      <FileName>Forms\DodajNatjecanje.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="AzurirajNatjecanje" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SmartFitness.Forms.DodajRezultatVjezbe">
+    <Position X="44.25" Y="9.5" Width="3" />
+    <AssociationLine Name="AzurirajRezultatVjezbe" Type="SmartFitness.Forms.AzurirajRezultatVjezbe" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="46" Y="18.3" />
+        <Point X="46" Y="30.339" />
+        <Point X="1.611" Y="30.339" />
+        <Point X="1.611" Y="12.375" />
+        <Point X="2" Y="12.375" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>ACKwgIOAELAIIBKBAAWEICACICBEAAEAAQAIAAAAEAQ=</HashCode>
+      <FileName>Forms\DodajRezultatVjezbe.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="AzurirajRezultatVjezbe" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SmartFitness.Forms.DodajSportUceniku">
+    <Position X="38" Y="10.25" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAKg0ELAgCAAIBAAgAWBQgACACAEoAEAQABIAAAAQAA=</HashCode>
+      <FileName>Forms\DodajSportUceniku.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SmartFitness.Forms.IspisIPretraga">
+    <Position X="43.75" Y="0.5" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAgwQIAQCAAAADFSAjAAAICIAAEAACwQAgjAEpAAEA=</HashCode>
+      <FileName>Forms\IspisIPretraga.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SmartFitness.Forms.Natjecanja">
+    <Position X="47.75" Y="0.75" Width="3.25" />
+    <AssociationLine Name="AzurirajUcenikaNaNatjecanju" Type="SmartFitness.Forms.AzurirajUcenikaNaNatjecanju" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="49.375" Y="0.75" />
+        <Point X="49.375" Y="0.159" />
+        <Point X="32.631" Y="0.159" />
+        <Point X="32.631" Y="0.875" />
+        <Point X="30.5" Y="0.875" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AEAAIBAgICAACBAIBACGoAICBKIIAAMQYABCAAAAQEA=</HashCode>
+      <FileName>Forms\Natjecanja.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="DodajNatjecanje" />
+      <Property Name="AzurirajUcenikaNaNatjecanju" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SmartFitness.Forms.PopisSportova">
+    <Position X="34.25" Y="8" Width="3" />
+    <AssociationLine Name="AzurirajSport" Type="SmartFitness.Forms.AzurirajSport" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="35.938" Y="8" />
+        <Point X="35.938" Y="6.473" />
+        <Point X="30.052" Y="6.473" Type="JumpStart" />
+        <Point X="29.885" Y="6.473" Type="JumpEnd" />
+        <Point X="29.458" Y="6.473" Type="JumpStart" />
+        <Point X="29.292" Y="6.473" Type="JumpEnd" />
+        <Point X="28.865" Y="6.473" Type="JumpStart" />
+        <Point X="28.698" Y="6.473" Type="JumpEnd" />
+        <Point X="22.208" Y="6.473" Type="JumpStart" />
+        <Point X="22.042" Y="6.473" Type="JumpEnd" />
+        <Point X="21.375" Y="6.473" />
+        <Point X="21.375" Y="4.25" />
+        <Point X="21" Y="4.25" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AgCAAAAABKACAQACBACAIARCARBAAAAAQRACABACAAA=</HashCode>
+      <FileName>Forms\PopisSportova.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="AzurirajSport" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SmartFitness.Forms.PopisUcenika">
+    <Position X="42" Y="10.75" Width="2" />
+    <AssociationLine Name="AzuriranjeUcenika" Type="SmartFitness.Forms.AzuriranjeUcenika" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="42.938" Y="18.011" />
+        <Point X="42.938" Y="28.584" />
+        <Point X="1.695" Y="28.584" Type="JumpStart" />
+        <Point X="1.528" Y="28.584" Type="JumpEnd" />
+        <Point X="0.661" Y="28.584" />
+        <Point X="0.661" Y="4.25" />
+        <Point X="1.75" Y="4.25" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AgOgAAIAAKAAIAQAAAWAIGRCASBUAQEAAAAIAAACAAE=</HashCode>
+      <FileName>Forms\PopisUcenika.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="AzuriranjeUcenika" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SmartFitness.Forms.PopisVjezbi">
+    <Position X="55.5" Y="0.75" Width="2" />
+    <AssociationLine Name="vjezba" Type="SmartFitness.vjezba" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="56.5" Y="7.242" />
+        <Point X="56.5" Y="18.982" />
+        <Point X="53.708" Y="18.982" Type="JumpStart" />
+        <Point X="53.542" Y="18.982" Type="JumpEnd" />
+        <Point X="49.646" Y="18.982" Type="JumpStart" />
+        <Point X="49.479" Y="18.982" Type="JumpEnd" />
+        <Point X="46.083" Y="18.982" Type="JumpStart" />
+        <Point X="45.917" Y="18.982" Type="JumpEnd" />
+        <Point X="43.021" Y="18.982" Type="JumpStart" />
+        <Point X="42.854" Y="18.982" Type="JumpEnd" />
+        <Point X="32.333" Y="18.982" Type="JumpStart" />
+        <Point X="32.167" Y="18.982" Type="JumpEnd" />
+        <Point X="27.24" Y="18.982" Type="JumpStart" />
+        <Point X="27.073" Y="18.982" Type="JumpEnd" />
+        <Point X="25.083" Y="18.982" Type="JumpStart" />
+        <Point X="24.917" Y="18.982" Type="JumpEnd" />
+        <Point X="22.208" Y="18.982" Type="JumpStart" />
+        <Point X="22.042" Y="18.982" Type="JumpEnd" />
+        <Point X="19.25" Y="18.982" />
+        <Point X="19.25" Y="18.363" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="AzurirajVjezbu" Type="SmartFitness.Forms.AzurirajVjezbu" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="57.125" Y="7.242" />
+        <Point X="57.125" Y="24.188" />
+        <Point X="53.708" Y="24.188" Type="JumpStart" />
+        <Point X="53.542" Y="24.188" Type="JumpEnd" />
+        <Point X="46.083" Y="24.188" Type="JumpStart" />
+        <Point X="45.917" Y="24.188" Type="JumpEnd" />
+        <Point X="43.021" Y="24.188" Type="JumpStart" />
+        <Point X="42.854" Y="24.188" Type="JumpEnd" />
+        <Point X="19.5" Y="24.188" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>MAAAAAJAECAAARCEAAGAIQAGCAANAAAAAZBAAAACAAA=</HashCode>
+      <FileName>Forms\PopisVjezbi.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="vjezba" />
+      <Property Name="AzurirajVjezbu" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SmartFitness.Forms.Statistika">
+    <Position X="52.25" Y="0.5" Width="2.75" />
+    <AssociationLine Name="vjezba_ucenik" Type="SmartFitness.vjezba_ucenik" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="53.625" Y="12.059" />
+        <Point X="53.625" Y="27.087" />
+        <Point X="46.083" Y="27.087" Type="JumpStart" />
+        <Point X="45.917" Y="27.087" Type="JumpEnd" />
+        <Point X="43.021" Y="27.087" Type="JumpStart" />
+        <Point X="42.854" Y="27.087" Type="JumpEnd" />
+        <Point X="13.188" Y="27.087" />
+        <Point X="13.188" Y="18.363" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>ACK2AYIAFDAYIFKBAAWGACgDOCAGEQQAAQAIBQAAAAQ=</HashCode>
+      <FileName>Forms\Statistika.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="vjezba_ucenik" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SmartFitness.Forms.Unos">
+    <Position X="41" Y="0.5" Width="2.5" />
+    <AssociationLine Name="DodajSportUceniku" Type="SmartFitness.Forms.DodajSportUceniku" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="41" Y="4.125" />
+        <Point X="40.5" Y="4.125" />
+        <Point X="40.5" Y="7.434" />
+        <Point X="39.906" Y="7.434" />
+        <Point X="39.906" Y="10.25" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="DodajRezultatVjezbe" Type="SmartFitness.Forms.DodajRezultatVjezbe" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="41.688" Y="4.492" />
+        <Point X="41.688" Y="9.844" />
+        <Point X="42.792" Y="9.844" Type="JumpStart" />
+        <Point X="42.958" Y="9.844" Type="JumpEnd" />
+        <Point X="44.25" Y="9.844" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="PopisUcenika" Type="SmartFitness.Forms.PopisUcenika" FixedFromPoint="true">
+      <Path>
+        <Point X="42.875" Y="4.492" />
+        <Point X="42.875" Y="10.75" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAIABAAAAiIAAJAAAACAgABCAAAAAAAACgSAgAAAAgA=</HashCode>
+      <FileName>Forms\Unos.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="DodajSportUceniku" />
+      <Property Name="DodajRezultatVjezbe" />
+      <Property Name="PopisSportova" />
+      <Property Name="PopisUcenika" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SmartFitness.Login">
+    <Position X="34.75" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>gBABAIIAICAYAAAAAACABYICBIAAAAAAAAgAgABAEAA=</HashCode>
+      <FileName>Forms\Login.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="PocetnaForma" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SmartFitness.PocetnaForma">
+    <Position X="38" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>EIAACMAAEiAIAAEAQBDECAAGHAAARIAAAAgAAQBAAKE=</HashCode>
+      <FileName>Forms\PocetnaForma.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Unos" />
+      <Property Name="IspisIPretraga" />
+      <Property Name="Natjecanja" />
+      <Property Name="Statistika" />
+      <Property Name="PopisVjezbi" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SmartFitness.Program" Collapsed="true">
+    <Position X="12.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SmartFitness.SmartFitnessEntities">
+    <Position X="2.25" Y="19.25" Width="2.5" />
+    <AssociationLine Name="korisniks" Type="SmartFitness.korisnik" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="4.75" Y="19.375" />
+        <Point X="10" Y="19.375" />
+        <Point X="10" Y="12.344" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="sport_ucenik" Type="SmartFitness.sport_ucenik" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="4.75" Y="19.875" />
+        <Point X="13.104" Y="19.875" Type="JumpStart" />
+        <Point X="13.271" Y="19.875" Type="JumpEnd" />
+        <Point X="16.844" Y="19.875" />
+        <Point X="16.844" Y="12.478" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="uceniks" Type="SmartFitness.ucenik" ManuallyRouted="true">
+      <Path>
+        <Point X="4.75" Y="19.532" />
+        <Point X="10.908" Y="19.532" />
+        <Point X="10.908" Y="13.257" />
+        <Point X="13.875" Y="13.257" />
+        <Point X="13.875" Y="12.882" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="vjezbas" Type="SmartFitness.vjezba" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="4.75" Y="20.93" />
+        <Point X="13.104" Y="20.93" Type="JumpStart" />
+        <Point X="13.271" Y="20.93" Type="JumpEnd" />
+        <Point X="17.875" Y="20.93" />
+        <Point X="17.875" Y="18.363" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="vjezba_ucenik" Type="SmartFitness.vjezba_ucenik" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="4.75" Y="19.688" />
+        <Point X="13.104" Y="19.688" Type="JumpStart" />
+        <Point X="13.271" Y="19.688" Type="JumpEnd" />
+        <Point X="13.875" Y="19.688" />
+        <Point X="13.875" Y="18.363" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>IABAAAAAAAAAAAIAAAAAAAAAEAAAAYAIAAAAFQAAAAA=</HashCode>
+      <FileName>SmartFitness.Context.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="korisniks" />
+      <Property Name="natjecanjes" />
+      <Property Name="natjecanje_ucenik" />
+      <Property Name="sports" />
+      <Property Name="sport_ucenik" />
+      <Property Name="uceniks" />
+      <Property Name="vjezbas" />
+      <Property Name="vjezba_ucenik" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="SmartFitness.korisnik">
+    <Position X="9.25" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAkAAEQAAAAECAAAAACAAAAQAAAAQAAAAAAAAAAAAA=</HashCode>
+      <FileName>korisnik.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SmartFitness.natjecanje">
+    <Position X="25" Y="8.25" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAQEAAAEAAAAAAAgAAAAQEBQICAIAIIAAAAAgAAAA=</HashCode>
+      <FileName>natjecanje.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="natjecanje_ucenik" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="SmartFitness.natjecanje_ucenik">
+    <Position X="23.5" Y="14.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAIAAAAABAEAAAAgAAAAAAAAAMAAAAAgBgEA=</HashCode>
+      <FileName>natjecanje_ucenik.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SmartFitness.sport">
+    <Position X="21" Y="9.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>EADgAEAAAAAAAAIAAAAgAAAAAACAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>sport.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="sport_ucenik" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="SmartFitness.sport_ucenik">
+    <Position X="16.75" Y="9" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AQAAAgAAAAAAAAAIAIAAAAQCAQIAAIAAEgAAAAAAgAA=</HashCode>
+      <FileName>sport_ucenik.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SmartFitness.sysdiagram" Collapsed="true">
+    <Position X="12.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAIAAAAAAAAAAAAAAAQAAAFAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>sysdiagram.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SmartFitness.ucenik">
+    <Position X="12.25" Y="8.25" Width="3.25" />
+    <AssociationLine Name="natjecanje_ucenik" Type="SmartFitness.natjecanje_ucenik" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="15.5" Y="12.25" />
+        <Point X="15.875" Y="12.25" />
+        <Point X="15.875" Y="14.125" />
+        <Point X="16.761" Y="14.125" Type="JumpStart" />
+        <Point X="16.927" Y="14.125" Type="JumpEnd" />
+        <Point X="19.448" Y="14.125" Type="JumpStart" />
+        <Point X="19.615" Y="14.125" Type="JumpEnd" />
+        <Point X="22.042" Y="14.125" Type="JumpStart" />
+        <Point X="22.208" Y="14.125" Type="JumpEnd" />
+        <Point X="24.375" Y="14.125" />
+        <Point X="24.375" Y="14.5" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AABoEgEAQEEAEgEAAAAIAAACAgAAABAIAAAABQAAAAA=</HashCode>
+      <FileName>ucenik.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="korisnik" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Property Name="natjecanje_ucenik" />
+      <Property Name="sport_ucenik" />
+      <Property Name="vjezba_ucenik" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="SmartFitness.vjezba">
+    <Position X="17" Y="14.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>MCAAAEAAAAFAAACAAAAACAQAAAAABAAAAgAABAEAAIA=</HashCode>
+      <FileName>vjezba.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="vjezba_ucenik" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="SmartFitness.vjezba_ucenik">
+    <Position X="12.25" Y="14.5" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAEAAAIAgAAAAAAAAAAAAAgASAACEgBACAAAhAA=</HashCode>
+      <FileName>vjezba_ucenik.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SmartFitness.Properties.Resources" Collapsed="true">
+    <Position X="12.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABEAAAAQAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SmartFitness.Properties.Settings" Collapsed="true">
+    <Position X="16.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

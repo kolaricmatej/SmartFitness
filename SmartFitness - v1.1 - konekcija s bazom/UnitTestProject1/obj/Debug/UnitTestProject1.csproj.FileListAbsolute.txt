@@ -1,0 +1,2 @@
+C:\Users\Matej\Documents\GitHub\GITHUB\SmartFitness - v1.1 - konekcija s bazom\UnitTestProject1\obj\Debug\UnitTestProject1.csprojResolveAssemblyReference.cache
+C:\Users\Matej\Documents\GitHub\GITHUB\SmartFitness - v1.1 - konekcija s bazom\UnitTestProject1\obj\Debug\UnitTestProject1.csproj.CoreCompileInputs.cache
